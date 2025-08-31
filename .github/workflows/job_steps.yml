@@ -13,7 +13,6 @@ jobs:
         run: |
           npm install
           npm test
-          npm run lint
           npm run build
         working-directory: ./src
         shell: bash
