@@ -12,7 +12,7 @@ jobs:
           npm test
           npm run lint
           npm run build
-        working-directory: ./temp
+        working-directory: ./src
         shell: bash   # pwsh | bash | python | cmd | sh |powershell
       
       - run: print %ENV
